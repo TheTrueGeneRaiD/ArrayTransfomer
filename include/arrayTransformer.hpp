@@ -2,35 +2,27 @@
 #define ARRAYTRANSFORMER
 
 #include <iostream>
-#include <array>
+#include <vector>
 
-class MatrixTransformer {
+class ArrayTransformer {
     private:
-        // Variables
-        int x;
-        int y;
-
-        std::array<> *matrix;
+        // Array
+        std::vector<std::vector<int>> *matrix;
 
         // Functions
-        void checkIfRowsOrColsAreLarger();
-        void setMatrix
-
     public:
         // Setters
-        void setX(int x);
-        void setY(int y);
-        void setArray()
+
+        /* This function will need to be put into a */
+        void setVectorRow(int arrayLine[]);
 
         // Getters
-        int getX();
-        int getY();
-
+       
         // Functions
-        void rotateLeft();
-        void rotateRight();
-        void mirrorHorizontal();
-        void mirrorVertical();
+        // void rotateLeft();
+        // void rotateRight();
+        // void mirrorHorizontal();
+        // void mirrorVertical();
         
 };
 
